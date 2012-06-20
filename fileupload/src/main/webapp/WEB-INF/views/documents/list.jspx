@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_xtreme_fileupload_domain_Document" items="${documents}" z="daARN9OIQ74KxbbwSlwNrdlwbMI=">
+        <table:table data="${documents}" id="l_com_xtreme_fileupload_domain_Document" path="/documents" update="false" z="JRZguOheap9tGDurg+ExmplAW2k=">
+            <table:column id="c_com_xtreme_fileupload_domain_Document_name" property="name" z="yLQv/VUkx+C6RYJrWs9MfUycCRI="/>
+            <table:column id="c_com_xtreme_fileupload_domain_Document_description" property="description" z="bqmGnWtDMT5IhlaiOsbXiSdXSbE="/>
+            <table:column id="c_com_xtreme_fileupload_domain_Document_filename" property="filename" z="kp06xH60tGGf6Ro2mcB/i7skvp4="/>
+            <table:column id="c_com_xtreme_fileupload_domain_Document_contentType" property="contentType" z="dj+UWB4hR5JOHsfricbK/g8ttTs="/>
+            <table:column id="c_com_xtreme_fileupload_domain_Document_content" property="content" render="false" z="KhNWaHaHyDrauCb4AokvqvZA/+w="/>
+            <table:column id="c_com_xtreme_fileupload_domain_Document_size" property="size" z="+lQsSJdkupYjp2jWsiCSuVchujk="/>
+        </table:table>
+    </page:list>
+</div>

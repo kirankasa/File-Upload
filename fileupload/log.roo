@@ -1,0 +1,19 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-06-19 21:07:00
+project --topLevelPackage com.xtreme.fileUpload
+jpa setup --database HYPERSONIC_PERSISTENT --provider HIBERNATE 
+entity jpa --class ~.domain.Document 
+field string --fieldName name --notNull --sizeMax 100
+field other --fieldName description --type java.lang.String 
+field string --fieldName filename --notNull 
+field string --fieldName contentType --notNull 
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-06-19 21:22:44
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-06-19 21:23:00
+web mvc setup
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-06-19 21:38:05
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-06-20 10:31:58
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-06-20 11:29:20
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-06-20 11:32:17

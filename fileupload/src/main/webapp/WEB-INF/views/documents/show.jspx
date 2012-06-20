@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:frame="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:url="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_xtreme_fileupload_domain_Document" object="${document}" path="/documents" update="false" z="u7TABo55fB9dPkGDbfRGAV+FAUs=">
+        <field:display field="name" id="s_com_xtreme_fileupload_domain_Document_name" object="${document}" z="leFgSroBfq69jNR2Mi06dlLdE2A="/>
+        <field:display field="description" id="s_com_xtreme_fileupload_domain_Document_description" object="${document}" z="PYWDYw/KjI5aNKfeO8LwTtJgUwQ="/>
+        <field:display field="filename" id="s_com_xtreme_fileupload_domain_Document_filename" object="${document}" z="67e2NIvw+K8pNhchdTmyc1llKdE="/>
+        <field:display field="contentType" id="s_com_xtreme_fileupload_domain_Document_contentType" object="${document}" z="026Ekw0DzNlgJOudDSPj4mPi51M="/>
+        <field:display field="content" id="s_com_xtreme_fileupload_domain_Document_content" object="${document}" render="false" z="Mn5jtQnOKxQDRVPPdmjj7Lr9jzc="/>
+        <field:display field="size" id="s_com_xtreme_fileupload_domain_Document_size" object="${document}" z="emCDi/A5z+Jcrei76FplQeOHCCY="/>
+         <field:frame field="url" id="s_com_xtreme_fileupload_domain_Document_url" object="${document}" render="true" z="user-managed"/>
+    </page:show>
+</div>
